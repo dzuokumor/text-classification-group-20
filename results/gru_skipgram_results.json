@@ -1,0 +1,42 @@
+{
+  "model": "GRU + Skip-gram",
+  "best_params": {
+    "gru_units": 128,
+    "dropout_rate": 0.3,
+    "learning_rate": 0.001
+  },
+  "tuning_results": [
+    {
+      "gru_units": 64,
+      "dropout_rate": 0.3,
+      "learning_rate": 0.001,
+      "val_accuracy": 0.9212499856948853
+    },
+    {
+      "gru_units": 64,
+      "dropout_rate": 0.5,
+      "learning_rate": 0.0005,
+      "val_accuracy": 0.9162916541099548
+    },
+    {
+      "gru_units": 128,
+      "dropout_rate": 0.3,
+      "learning_rate": 0.001,
+      "val_accuracy": 0.9238333106040955
+    },
+    {
+      "gru_units": 128,
+      "dropout_rate": 0.5,
+      "learning_rate": 0.0005,
+      "val_accuracy": 0.918749988079071
+    }
+  ],
+  "test_accuracy": 0.9177631578947368,
+  "weighted_f1": 0.9177601439619222,
+  "per_class_f1": {
+    "World": 0.918918918918919,
+    "Sports": 0.9728590250329381,
+    "Business": 0.8865924748277689,
+    "Sci/Tech": 0.8926701570680629
+  }
+}

@@ -1,0 +1,4 @@
+Model,World,Sports,Business,Sci/Tech
+GRU + TF-IDF,0.9163,0.9674,0.8844,0.8971
+GRU + Skip-gram,0.9189,0.9729,0.8866,0.8927
+GRU + CBOW,0.9204,0.9671,0.8801,0.8903

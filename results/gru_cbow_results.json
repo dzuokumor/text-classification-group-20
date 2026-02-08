@@ -1,0 +1,42 @@
+{
+  "model": "GRU + CBOW",
+  "best_params": {
+    "gru_units": 128,
+    "dropout_rate": 0.3,
+    "learning_rate": 0.001
+  },
+  "tuning_results": [
+    {
+      "gru_units": 64,
+      "dropout_rate": 0.3,
+      "learning_rate": 0.001,
+      "val_accuracy": 0.9120000004768372
+    },
+    {
+      "gru_units": 64,
+      "dropout_rate": 0.5,
+      "learning_rate": 0.0005,
+      "val_accuracy": 0.9102916717529297
+    },
+    {
+      "gru_units": 128,
+      "dropout_rate": 0.3,
+      "learning_rate": 0.001,
+      "val_accuracy": 0.9176666736602783
+    },
+    {
+      "gru_units": 128,
+      "dropout_rate": 0.5,
+      "learning_rate": 0.0005,
+      "val_accuracy": 0.9130416512489319
+    }
+  ],
+  "test_accuracy": 0.9144736842105263,
+  "weighted_f1": 0.914461628476838,
+  "per_class_f1": {
+    "World": 0.9203873050026896,
+    "Sports": 0.967067433350758,
+    "Business": 0.880085653104925,
+    "Sci/Tech": 0.8903061224489796
+  }
+}

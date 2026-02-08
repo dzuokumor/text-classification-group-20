@@ -1,0 +1,42 @@
+{
+  "model": "GRU + TF-IDF",
+  "best_params": {
+    "gru_units": 64,
+    "dropout_rate": 0.3,
+    "learning_rate": 0.001
+  },
+  "tuning_results": [
+    {
+      "gru_units": 64,
+      "dropout_rate": 0.3,
+      "learning_rate": 0.001,
+      "val_accuracy": 0.918749988079071
+    },
+    {
+      "gru_units": 64,
+      "dropout_rate": 0.5,
+      "learning_rate": 0.0005,
+      "val_accuracy": 0.9168333411216736
+    },
+    {
+      "gru_units": 128,
+      "dropout_rate": 0.3,
+      "learning_rate": 0.001,
+      "val_accuracy": 0.9173750281333923
+    },
+    {
+      "gru_units": 128,
+      "dropout_rate": 0.5,
+      "learning_rate": 0.0005,
+      "val_accuracy": 0.9154583215713501
+    }
+  ],
+  "test_accuracy": 0.9164473684210527,
+  "weighted_f1": 0.9162931877766555,
+  "per_class_f1": {
+    "World": 0.9162666666666667,
+    "Sports": 0.9674224654678134,
+    "Business": 0.8843791722296395,
+    "Sci/Tech": 0.8971044467425026
+  }
+}

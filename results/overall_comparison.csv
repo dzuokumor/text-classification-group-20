@@ -1,0 +1,4 @@
+Model,Test Accuracy,Weighted F1
+GRU + TF-IDF,0.9164,0.9163
+GRU + Skip-gram,0.9178,0.9178
+GRU + CBOW,0.9145,0.9145
